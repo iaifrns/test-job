@@ -1,7 +1,8 @@
 
 @font-face {
-    font-family: 'Monsterrat';
-    src: url('./fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('woff2');
+    font-family: 'montserrat';
+    src: url('./fonts/Montserrat/static/Montserrat-Light.ttf') format('woff2'),
+    url('./fonts/Montserrat/static/Montserrat-ExtraBold.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -12,7 +13,7 @@
     flex-direction: column;
     margin-right: 16px;
     margin-left: 16px;
-    font-family: 'Monsterrat';
+    font-family: 'montserrat';
 }
 .header {
     display: flex;
