@@ -34,13 +34,13 @@ function App() {
           className="container2"
         >
           <img src={pic1} className="img1" />
-          <img src={pic2} className="img2" />
-          <img src={pic3} className="img3" />
+          <img src={pic3} className="img2" />
+          <img src={pic2} className="img3" />
         </div>
         <div className="container3">
           <span className="title">BANTOU GROUP</span>
           <span>
-            <b>H</b>armonie <br /> des <b>B</b>esoins, <b>C</b>onvergence des{" "}
+            <b>H</b>armonie <br /> des <b>B</b>esoins, <b>C</b>onvergence <br /> des{" "}
             <b>S</b>olutions
           </span>
         </div>

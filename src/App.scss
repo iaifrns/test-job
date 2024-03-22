@@ -10,8 +10,9 @@
     height: '100%';
     display: flex;
     flex-direction: column;
-    margin: 16px;
-    font-family: 'Monsterrat', sans-serif;
+    margin-right: 16px;
+    margin-left: 16px;
+    font-family: 'Monsterrat';
 }
 .header {
     display: flex;
@@ -32,6 +33,8 @@
 .container {
     display: flex;
     overflow: hidden;
+    margin-top: 16px;
+    margin-bottom: 16px;
 
     .container1 {
         display: flex;
@@ -69,11 +72,11 @@
         .img2{
             position: absolute;
             z-index: 1;
-            margin-left: 20%;
+            margin-left: 25%;
         }
 
         .img3{
-            margin-left: 40%;
+            margin-left: 50%;
         }
     }
 
@@ -82,7 +85,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        font-size: 70px;
+        font-size: 65px;
         font-weight: lighter;
         text-align: center;
         width: 50%;
