@@ -1,0 +1,122 @@
+.body {
+    width: '100%';
+    height: '100%';
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .menu {
+        display: flex;
+        font-size: large;
+        color: gray;
+
+        span {
+            margin: 8px;
+        }
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 5%;
+        font-size: larger;
+
+        div {
+            width: 2px;
+            height: 70px;
+            background-color: black;
+        }
+
+        b{
+            transform: rotate(90deg);
+            margin-bottom: 20px;
+        }
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        width: 45%;
+
+        img {
+            width: 200px;
+            border-radius: 16px;
+            z-index: 1;
+        }
+
+        .img2{
+            position: absolute;
+            z-index: 1;
+            margin-left: 150px;
+        }
+
+        .img3{
+            margin-left: 310px;
+        }
+    }
+
+    .container3 {
+        display: flex;
+        flex-direction: column;
+        font-size: 70px;
+        font-weight: lighter;
+        text-align: center;
+        justify-content: 'center';
+        align-items: 'center';
+        width: 50%;
+        margin: 4px;
+
+        .title {
+            font-weight: bold;
+        }
+    }
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+    span {
+        width: 45%;
+    }
+
+    .circle {
+        padding: 25px;
+        border : 1px solid black;
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+
+        .dot {
+            background-color: black;
+            padding: 2px;
+            border-radius: 18px;
+        }
+    }
+
+    .icons {
+        width: 45%;
+        display: flex;
+        justify-content: end;
+        font-size: 25px;
+    }
+}
